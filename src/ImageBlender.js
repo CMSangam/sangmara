@@ -91,7 +91,7 @@ const ImageBlender = () => {
         onChange={(e) => setImage2(URL.createObjectURL(e.target.files[1]))}
       />
       */}
-      <button onClick={openPopup} style={{color: 'white', backgroundColor: 'black', width:"30%"}}> <img src={wroclaw} style={{width:"100%"}}></img>Guess how our son and daughter looks like</button>
+      <button onClick={openPopup} style={{color: 'white', backgroundColor: 'black', width:"30%"}}> <img src={wroclaw} style={{width:"100%"}}></img>Guess how our son and daughter will look like</button>
 
 <Popup isOpen={isPopupOpen} closePopup={closePopup}>
   <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} style={{width:"50%"}}/>
