@@ -9,6 +9,7 @@ import muscle from './images/muscle.jpg';
 import guitar from './images/guitar.jpg';
 import travel from './images/Travelling.jpg';
 import trekking from './images/trekking.jpg';
+import wroclaw from './images/wroclaw.jpg';
 
 
 const ImageBlender = () => {
@@ -90,13 +91,13 @@ const ImageBlender = () => {
         onChange={(e) => setImage2(URL.createObjectURL(e.target.files[1]))}
       />
       */}
-        <button onClick={openPopup} style={{color: 'white', backgroundColor: 'black'}}>Guess how our son and daughter looks like</button>
+      <button onClick={openPopup} style={{color: 'white', backgroundColor: 'black', width:"30%"}}> <img src={wroclaw} style={{width:"100%"}}></img>Guess how our son and daughter looks like</button>
 
-      <Popup isOpen={isPopupOpen} closePopup={closePopup}>
-        <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} style={{width:"50%"}}/>
-        <h3>{coversation[currentConv]}</h3>
-      <button onClick={clickSlide} style={{color: 'white', backgroundColor: 'black'}}>Next</button>
-      </Popup>
+<Popup isOpen={isPopupOpen} closePopup={closePopup}>
+  <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} style={{width:"50%"}}/>
+  <h3>{coversation[currentConv]}</h3>
+<button onClick={clickSlide} style={{color: 'white', backgroundColor: 'black'}}>Next</button>
+</Popup>
 
      {/* {blendedImage && (
         <div>
