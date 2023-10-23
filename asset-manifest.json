@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sangmara/static/css/main.838c7afe.css",
-    "main.js": "/sangmara/static/js/main.4f281d23.js",
+    "main.js": "/sangmara/static/js/main.7b023421.js",
     "static/js/787.3f263777.chunk.js": "/sangmara/static/js/787.3f263777.chunk.js",
     "static/media/Hi.jpg": "/sangmara/static/media/Hi.2789c6e93a87b05692c6.jpg",
     "static/media/food.jpg": "/sangmara/static/media/food.42f4d088751f7ce72c45.jpg",
@@ -9,15 +9,16 @@
     "static/media/muscle.jpg": "/sangmara/static/media/muscle.8fb3f38476b46967c247.jpg",
     "static/media/Travelling.jpg": "/sangmara/static/media/Travelling.79061eab4647e92554cc.jpg",
     "static/media/guitar.jpg": "/sangmara/static/media/guitar.1da936aae421866d43c1.jpg",
+    "static/media/wroclaw.jpg": "/sangmara/static/media/wroclaw.5ae7af04d26d7abf89f9.jpg",
     "static/media/laugh.jpg": "/sangmara/static/media/laugh.55294a213382f5007c85.jpg",
     "static/media/dogs.jpg": "/sangmara/static/media/dogs.e5c5201889ba65ea95c7.jpg",
     "index.html": "/sangmara/index.html",
     "main.838c7afe.css.map": "/sangmara/static/css/main.838c7afe.css.map",
-    "main.4f281d23.js.map": "/sangmara/static/js/main.4f281d23.js.map",
+    "main.7b023421.js.map": "/sangmara/static/js/main.7b023421.js.map",
     "787.3f263777.chunk.js.map": "/sangmara/static/js/787.3f263777.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.838c7afe.css",
-    "static/js/main.4f281d23.js"
+    "static/js/main.7b023421.js"
   ]
 }
